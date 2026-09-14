@@ -1,0 +1,3 @@
+use full (npm i -g nodemon) golbally install kr dena aap kabhi bhi node.js use kr skte hai 
+automatic result ko update krna hai __(nodemon)
+

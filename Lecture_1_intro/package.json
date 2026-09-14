@@ -1,0 +1,12 @@
+{
+  "name": "lecture_1_intro",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "shivam",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
