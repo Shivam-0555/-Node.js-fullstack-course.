@@ -8,7 +8,7 @@ const products =[
 {tittle: 'Nothing -15',price:45000},
 ]
 
-// app.get('/',(req,res)=>{
+app.get('/',(req,res)=>{
 //     res.json({
 //         message: "fetched all products",
 //         jo_chahe: " de skte hai",
@@ -17,8 +17,11 @@ const products =[
 //     });
 // });
 const dir = path.resolve();
-console.log(dir)
-res.sendFile('index.html');
+// console.log(dir)
+const url = path.join(dir,'./index.html')
+console.log("full path =", url)
 
+res.sendFile(url);
+});
 const port = 1000;
 app.listen(port, ()=>console.log(`server is running on port ${port}`))
