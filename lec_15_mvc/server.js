@@ -29,8 +29,8 @@ app.post('/form-submit', async (req, res) => {
       name,
       email,
       password,
-      age,
-      contanct: phone
+      age: Number(age),
+      contact: Number(phone)
     })
 
     console.log("Getting the data from body", req.body)
