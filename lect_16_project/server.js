@@ -10,6 +10,7 @@ const app = express();
  )
  .then(() => console.log("MongoDB Connected..!"))
  .catch(console.error);
+  
 const port = 1000;
 
 app.listen(postMessage,()=>console.log(`Server is running on port ${port}`))

@@ -6,6 +6,17 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <div class="container">
+        <h1> URL Shortner Project</h1>
+    <form action="">
+        <label for="longUrl">Enter long URL:</label>
+        <input type = "text" id ="longURL" required>
+        <button type="submit">Shorter</button>
+    </form>
+    <% if(shortUrl){%>
+    <p>ShortURL:- <a href="<%= shortUrl %>" target="_blank"></a>
+<%= shortUrl %>
+ </p><% } %>
+ </div>
 </body>
 </html>
